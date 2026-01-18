@@ -1,0 +1,35 @@
+.bg { 
+   background: url('IMG-20250118-WA0335.jpg') no-repeat center fixed; 
+   background-size: cover; 
+   color: white; 
+   font-family: Arial; 
+   text-align: center; 
+   padding-top: 100px;
+}
+.container { 
+   background: rgba(0,0,0,0.7); 
+   width: 350px; 
+   margin: auto; 
+   padding: 30px; 
+   border-radius: 15px; 
+}
+input, select, button { 
+   width: 100%; 
+   margin: 10px 0; 
+   padding: 12px; 
+   border: none; 
+   border-radius: 8px; 
+}
+button { 
+   background: #ff0000; 
+   color: white; 
+   font-weight: bold; 
+   cursor: pointer; 
+}
+.pass-wrapper { position: relative; }
+.eye { 
+   position: absolute; 
+   right: 15px; 
+   top: 22px; 
+   cursor: pointer; 
+}
